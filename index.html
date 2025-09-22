@@ -46,14 +46,20 @@
     </section>
 
     <section id="food">
-        <h2>Food Category</h2><br>
+        <h2 style="color:white;">Food Category</h2><br>
        <div class="food_category">
-        <div class="category"><img src="image/pizza_category_image.png" alt="pizza">Pizza</div>
-        <div class="category"><img src="image/pizza_category_image.png" alt="">Burger</div>
-        <div class="category"><img src="image/pizza_category_image.png" alt="">Drinks</div>
-        <div class="category"><img src="image/pizza_category_image.png" alt="">Deserts</div>
+        <a href="#menu_pizza"class="text"><div class="category"><img src="image/pizza_category_image.png" alt="pizza">Pizza</div></a>
+        <a href="#menu_burgur"class="text"><div class="category"><img src="image/burger.png" alt="">Burger</div></a>
+        <a href="#menu_drinks"class="text"><div class="category"><img src="image/drinks.png" alt="">Drinks</div></a>
+        <a href="#menu_desert"class="text"><div class="category"><img src="image/desart.png" alt="">Deserts</div></a>
        </div>
-       <div class="menu_gallary"></div>
+       <div id="menu_pizza">
+        <div class="food_menu">
+            <img src="image/pizza_category_image.png" alt="" srcset="">
+            Price:5$
+            <button>Order Now</button>
+        </div>
+       </div>
     </section>
 
 <--service section>
@@ -66,11 +72,11 @@
 <--contact section>
     <section id=" contact">
         <form action="" method="post">
-                <label for="name">Name:</label><br>
+                Name:<br>
                 <input type="text" id="name"><br>
-                <label for="email">Email:</label><br>
+                Email:<br>
                 <input type="email"id=" email"><br>
-                <label for="massage">Massage</label><br>
+                Massage:<br>
                 <textarea name="massage" id="massage"></textarea><br>
                 <input type="submit" value="Submit" id="submit_button">
         </form>
